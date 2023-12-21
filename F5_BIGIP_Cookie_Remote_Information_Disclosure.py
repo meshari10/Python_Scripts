@@ -23,7 +23,7 @@ def decode_persistence_cookie(cookie):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python script.py <persistence cookie>")
+        print("Usage: python F5_BIGIP_Cookie_Remote_Information_Disclosure.py <persistence cookie>")
         sys.exit(1)
 
     persistence_cookie = sys.argv[1]
